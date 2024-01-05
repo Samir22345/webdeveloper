@@ -96,9 +96,11 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-main section{
+
+main section {
     margin: 110px;
 }
+
 .about {
     padding: 130px;
     border-radius: 10px;
@@ -122,7 +124,7 @@ main section{
 }
 
 .secdsc {
-    color: #757575);
+    color: #757575;
     text-align: center;
     font-size: 15px;
     font-weight: 400;
@@ -146,7 +148,48 @@ main section{
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.skl-dsc{
-    color: #757575);
 
+.skl-dsc {
+    color: #757575;
+
+}
+
+.sectr {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 52px;
+}
+.resume-container hr{
+    margin: 25px;
+}
+
+
+.resume-clmt {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: space-between;
+}
+
+.rsmdsc {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.rsmu {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 30px;
 }
