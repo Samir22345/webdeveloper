@@ -56,9 +56,11 @@ nav a {
     align-items: center;
     justify-content: space-between;
 }
-.banner-cnt{
+
+.banner-cnt {
     width: max-content;
 }
+
 .banner-greading {
     color: #474747;
     font-size: 45px;
@@ -88,4 +90,63 @@ nav a {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin: 110px;
+}
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px;
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.sect {
+    color: #181818;
+    text-align: center;
+}
+
+.secdsc {
+    color: #757575);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+#wid-dsc {
+    padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skl-dsc{
+    color: #757575);
+
 }
